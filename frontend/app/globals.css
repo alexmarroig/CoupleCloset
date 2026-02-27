@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: radial-gradient(circle at top, #f1e8dd 0, #f8f4ef 40%, #f8f4ef 100%);
+}
+
+.glass-card {
+  @apply rounded-3xl bg-white/80 backdrop-blur shadow-sm border border-white/60;
+}
+
