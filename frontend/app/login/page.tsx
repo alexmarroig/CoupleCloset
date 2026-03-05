@@ -49,6 +49,13 @@ export default function LoginPage() {
           </div>
 
           <button
+            type="button"
+            className="text-[11px] text-slate-500 underline underline-offset-2"
+          >
+            Esqueci minha senha
+          </button>
+
+          <button
             type="submit"
             className="w-full rounded-full bg-slate-900 text-white py-2.5 text-sm font-medium shadow-sm"
           >
